@@ -14,6 +14,8 @@
 		947EC4FC1A6C115E000354F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947EC4FB1A6C115E000354F3 /* Images.xcassets */; };
 		947EC4FF1A6C115E000354F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947EC4FD1A6C115E000354F3 /* LaunchScreen.xib */; };
 		947EC50B1A6C115E000354F3 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947EC50A1A6C115E000354F3 /* QuizTests.m */; };
+		947EC5171A6C115E000354F3 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947EC5151A6C115E000354F3 /* BNRViewController.m */; };
+		947EC5181A6C115E000354F3 /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947EC5161A6C115E000354F3 /* BNRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		947EC5041A6C115E000354F3 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947EC5091A6C115E000354F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947EC50A1A6C115E000354F3 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		947EC5141A6C115E000354F3 /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		947EC5151A6C115E000354F3 /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		947EC5161A6C115E000354F3 /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 			children = (
 				947EC4F21A6C115E000354F3 /* AppDelegate.h */,
 				947EC4F31A6C115E000354F3 /* AppDelegate.m */,
+				947EC5141A6C115E000354F3 /* BNRViewController.h */,
+				947EC5151A6C115E000354F3 /* BNRViewController.m */,
+				947EC5161A6C115E000354F3 /* BNRViewController.xib */,
 				947EC4F51A6C115E000354F3 /* ViewController.h */,
 				947EC4F61A6C115E000354F3 /* ViewController.m */,
 				947EC4F81A6C115E000354F3 /* Main.storyboard */,
@@ -202,6 +210,7 @@
 				947EC4FA1A6C115E000354F3 /* Main.storyboard in Resources */,
 				947EC4FF1A6C115E000354F3 /* LaunchScreen.xib in Resources */,
 				947EC4FC1A6C115E000354F3 /* Images.xcassets in Resources */,
+				947EC5181A6C115E000354F3 /* BNRViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				947EC4F71A6C115E000354F3 /* ViewController.m in Sources */,
 				947EC4F41A6C115E000354F3 /* AppDelegate.m in Sources */,
 				947EC4F11A6C115E000354F3 /* main.m in Sources */,
+				947EC5171A6C115E000354F3 /* BNRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
