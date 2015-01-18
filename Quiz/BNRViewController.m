@@ -49,8 +49,6 @@
 
 - (IBAction)showAnswer:(id)sender
 {
-    self.currentQuestionIndex++;
-    
     if(self.currentQuestionIndex == self.questions.count) {
         self.currentQuestionIndex = 0;
     }
